@@ -9,7 +9,6 @@
     }
   }
 
-
   type Books = { title: string; rating: number }[];
 
   const books: Books = [
@@ -109,7 +108,6 @@
     }
   };
 
-  //   Problem 7:solved
 
   function squareAsync (n: number): Promise<number> {
     return new Promise((resolve, reject) => {

@@ -30,13 +30,28 @@ Enums is short form of enumerations. In TypeScript, they allow you to define a s
 - Group related values together  
 - Prevent invalid values from being used
 
-### Three types of Enums
+### Different types of Enums:
 
 #### 1. Numeric Enums  
 By default, TypeScript enums are numeric. The first value starts at 0, and after each, the value increases by 1.
 
-#### 2. String Enums  
-Each value is a string explicitly assigned by the developer.
+```
+enum Direction {
+  Up,       // 0
+  Down,     // 1
+  Left,     // 2
+  Right     // 3
+}
 
-#### 3. Heterogeneous Enums  
-Mix of string and numeric values.
+ ```
+
+#### 2. String Enums  
+Each value is a string which is assigned by the developer.
+
+``` 
+enum UserRole {
+  Admin = "ADMIN",
+  Editor = "EDITOR",
+  Viewer = "VIEWER"
+}
+```
