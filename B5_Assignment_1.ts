@@ -9,7 +9,6 @@
     }
   }
 
-  //Problem 1: solved;
 
   type Books = { title: string; rating: number }[];
 
@@ -25,7 +24,6 @@
     return filterdBooks;
   };
 
-  //Problem 2:solved
 
   function concatenateArrays<T>(...arrays: T[][]): T[] {
     const finalArray: T[] = [];
@@ -35,7 +33,6 @@
     return finalArray;
   }
 
-  //   problem 3 solved
 
   class Vehicle {
     private make: string;
@@ -61,7 +58,6 @@
     }
   }
 
-  //   problem 4 solved
 
   function processValue (value: string | number): number  {
     if (typeof value === "number") {
@@ -71,7 +67,6 @@
     }
   };
 
-  // problem 5 solved
 
   interface Product {
     name: string;
@@ -92,7 +87,7 @@
       return ep;
     }
   };
-  //   Problem 6: solved
+  
 
   enum Day {
     Monday,
@@ -128,7 +123,7 @@
     });
   };
 
-  // Problem 8: solved
+  
 
   //
 }
